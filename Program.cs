@@ -38,7 +38,7 @@ namespace module2dz
         }
         static void Exmpl02()
         {
-            Console.WriteLine("Введдите номер трамвайного билета (6-значное число): ");
+            Console.WriteLine("Введите номер трамвайного билета (6-значное число): ");
             string str = Console.ReadLine();
             int[] arr = str.Select(x => x - '0').ToArray();
             int sum1 = arr[0] + arr[1] + arr[2];
